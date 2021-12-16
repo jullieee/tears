@@ -1,0 +1,43 @@
+/* .tear_1:hover, .tear_2:hover, .tear_3:hover, .tear_4:hover, .tear_5:hover {
+  animation: teardrop 3s ease-in;
+  animation-iteration-count: 1;
+}
+@keyframes teardrop {
+  0% {top: 0%; transform: rotate(0deg);}
+  100% {top: 120%; transform: rotate(260eg);}
+}
+.cloud1 {
+  animation: move1 7s infinite ease-in;
+}
+.cloud2 {
+  animation: move2 7s infinite ease-in;
+}
+.cloud3 {
+  animation: move3 7s infinite ease-in;
+}
+@keyframes move1 {
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(0.95, 1.1);}
+    50% {transform: scale(1.1, 0.95);}
+    75% {transform: scale(0.95, 1.05);}
+}
+@keyframes move2 {
+    0% { transform: scale(1, 1);}
+    25% {transform: scale(1.1, 0.95);}
+    50% {transform: scale(1, 1.1);}
+    75% {transform: scale(0.95, 1);}
+}
+@keyframes move3 {
+    0% { transform: scale(1, 1);}
+    25% {transform: scale(0.95, 1.1);}
+    50% {transform: scale(1.1, 0.95);}
+    75% {transform: scale(0.95, 1.05);}
+}
+.rain:hover {
+  animation: rain 3s;
+  animation-iteration-count: 1;
+}
+@keyframes rain {
+0% {transform: scale(1, 0.4);}
+100% {transform: scale(1, 1);}
+} */
