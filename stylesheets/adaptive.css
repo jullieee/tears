@@ -1,163 +1,585 @@
-@media only screen and (min-width: 1224px) { /* Desktop */
-  .eye
+@media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) { /* Full HD */
+  .apple1 {
+    margin-top: 6.5%;
+    margin-left: -6%;
+  }
+  .apple2 {
+    margin-top: 6.5%;
+    margin-left: -2.5%;
+  }
+  .eye {
+    height: 70%;
+    margin-top: -8%;
+    margin-left: -7%;
+  }
+  .eye2 {
+    height: 70%;
+    margin-top: -8%;
+    margin-left: -5%;
+  }
+  .tear_1 {
+    height: 40%;
+    margin-top: 18%;
+  }
+  .tear_2 {
+    height: 43%;
+    margin-top: 20%;
+  }
+  .tear_3 {
+    height: 80%;
+    margin-top: 42%;
+    margin-left: -4%;
+  }
+  .tear_4 {
+    height: 28%;
+    margin-top: 41%;
+    margin-left: 8%;
+  }
+  .tear_5 {
+    height: 48%;
+    margin-top: 54%;
+    margin-left: 6%;
+  }
+  .tear_6 {
+    width: 55%;
+    height: 28%;
+    margin-top: 15%;
+      margin-left: -5%;
+  }
+  .tear_7 {
+    height: 40%;
+    margin-top: 17%;
+      margin-left: 5%;
+  }
+  .tear_8 {
+    height: 37%;
+    margin-top: 23%;
+      margin-left: -5%;
+  }
+  .tear_9 {
+    height: 43%;
+    margin-top: 40%;
+    margin-left: -5%;
+  }
+  .tear_10 {
+    height: 70%;
+    margin-top: 27%;
+  }
+  .tear_11 {
+    height: 35%;
+    margin-top: 29%;
+    margin-left: 20%;
+  }
+  .tear_12 {
+    height: 32%;
+    margin-top: 50%;
+    margin-left: -5%;
+  }
+  .tear_13 {
+    height: 33%;
+    margin-top: 55%;
+    margin-left: -5%;
+  }
+  .tear_14 {
+    height: 43%;
+    margin-top: 56%;
+    margin-left: -5%;
+  }
+  .tear_15 {
+    height: 28%;
+    margin-top: 65%;
+    margin-left: -5%;
+  }
+  .cloud1 {
+    width: 45%;
+    height: 80%;
+    margin-top: 65%;
+    left: 5%;
+    position: absolute;
+  }
+  .cloud2 {
+    width: 75%;
+    height: 80%;
+    margin-top: 70%;
+
+    position: absolute;
+    display: block
+  }
+  .cloud3 {
+    width: 75%;
+    height: 90%;
+    margin-top: 75%;
+    left: -10%;
+    position: absolute;
+  }
+  .rain {
+    width: 100%;
+    height: 100%;
+    margin-top: 97%;
+    left: 0%;
+    position: absolute;
+  }
+  .block {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-top: 170%;
+  }
+  .text6 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: #1b4c93;
+    position: absolute;
+    margin-top: 177%;
+  }
+  .logo {
+    width: 25%;
+    height: 70%;
+    margin-top: 183%;
+    left: 1%;
+    position: absolute;
+  }
+  .text1 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 10%;
+    margin-top: 17%;
+  }
+  .text2 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 12%;
+    margin-top: 33%;
+  }
+  .text3 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    margin-top: 45%;
+  }
+  .text4 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 13%;
+    margin-top: 58%;
+  }
+  .text5 {
+    font-family: 'Idealist-Sans';
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    margin-top: 60%;
+  }
+
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* iPad Portrait */
-    .eye {
-      width: 25%;
-      height: 11%;
-      left: 20%;
-    }
-    .eye2 {
-      width: 25%;
-      height: 11%;
-      left: 56%;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) { /* WXGA+ */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 70px;
+  }
+  .block {
+    margin-top: 40%;
+  }
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1440px) { /* WXGA */
+  .apple1 {
+    width: 7%;
+    height: 12%;
+    margin-top: 5%;
+    left: 31.5%;
+  }
+  .apple2 {
+    width: 7%;
+    height: 12%;
+    margin-top: 5%;
+    left: 60.5%;
+  }
+  @keyframes eye_move1 {
+    0% {top: 0%; left: 31.5%;}
+    20% {top: 1%; left: 32.5%;}
+    40% {top: 1%; left: 32%;}
+    60% {top: 0.5%; left: 31%;}
+    80% {top: 1%; left: 30.5%;}
+    100% {top: 0%; left: 31.5%;}
+  }
+  @keyframes eye_move2 {
+    0% {top: 0%; left: 60.5%;}
+    20% {top: 1%; left: 61.5%;}
+    40% {top: 1%; left: 61%;}
+    60% {top: 0.5%; left: 60%;}
+    80% {top: 1%; left: 59.5%;}
+    100% {top: 0%; left: 60.5%;}
+  }
+  .eye {
+    width: 50%;
+    height: 70%;
+    margin-top: -9%;
+    left: 10%;
+    position: absolute;
+  }
+  .eye2 {
+    width: 50%;
+    height: 70%;
+    margin-top: -9%;
+    left: 39%;
+    position: absolute;
+  }
+
+  .tear_1 {
+    width: 70%;
+    height: 45%;
+    margin-top: 21%;
+    left: 26%;
+    position: absolute;
+  }
+  .tear_2 {
+    width: 25%;
+    height: 44%;
+    margin-top: 20%;
+    left: 24%;
+    position: absolute;
+  }
+  .tear_3 {
+    width: 30%;
+    height: 80%;
+    margin-top: 42%;
+    left: 12%;
+    position: absolute;
+  }
+  .tear_4 {
+    width: 70%;
+    height: 31%;
+    margin-top: 47%;
+    left: 29%;
+    position: absolute;
+  }
+  .tear_5 {
+    width: 60%;
+    height: 45%;
+    margin-top: 63%;
+    left: 23%;
+    position: absolute;
+  }
+  .tear_6 {
+    width: 55%;
+    height: 28%;
+    margin-top: 17%;
+    left: 5%;
+    position: absolute;
+  }
+  .tear_7 {
+    width: 55%;
+    height: 40%;
+    margin-top: 16%;
+    left: 45%;
+    position: absolute;
+  }
+  .tear_8 {
+    width: 27%;
+    height: 37%;
+    margin-top: 28%;
+    left: 4%;
+    position: absolute;
+  }
+  .tear_9 {
+    width: 17%;
+    height: 43%;
+    margin-top: 45%;
+    left: 8%;
+    position: absolute;
+  }
+  .tear_10 {
+    width: 30%;
+    height: 70%;
+    margin-top: 31%;
+    left: 28%;
+    position: absolute;
+  }
+  .tear_11 {
+    width: 60%;
+    height: 35%;
+    margin-top: 34%;
+    left: 54%;
+    position: absolute;
+  }
+  .tear_12 {
+    width: 60%;
+    height: 27%;
+    margin-top: 58%;
+    left: 47%;
+    position: absolute;
+  }
+  .tear_13 {
+    width: 60%;
+    height: 27%;
+    margin-top: 63%;
+    left: 57%;
+    position: absolute;
+  }
+  .tear_14 {
+    width: 40%;
+    height: 43%;
+    margin-top: 65%;
+    left: 18%;
+    position: absolute;
+  }
+  .tear_15 {
+    width: 55%;
+    height: 28%;
+    margin-top: 75%;
+    left: 34%;
+    position: absolute;
+  }
+  .cloud1 {
+    width: 45%;
+    height: 80%;
+    margin-top: 70%;
+    left: 5%;
+    position: absolute;
+  }
+  .cloud2 {
+    width: 75%;
+    height: 80%;
+    margin-top: 75%;
+    left: 35%;
+    position: absolute;
+    display: block
+  }
+  .cloud3 {
+    width: 75%;
+    height: 90%;
+    margin-top: 80%;
+    left: -10%;
+    position: absolute;
+  }
+  .rain {
+    width: 100%;
+    height: 100%;
+    margin-top: 95%;
+    left: 0%;
+    position: absolute;
+  }
+  .block {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-top: 175%;
+  }
+  .text6 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: #1b4c93;
+    position: absolute;
+    left: 27%;
+    margin-top: 182%;
+  }
+  .logo {
+    width: 25%;
+    height: 70%;
+    margin-top: 189%;
+    left: 37%;
+    position: absolute;
+  }
+  .text1 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 53%;
+    margin-top: 35%;
+  }
+  .text2 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 14%;
+    margin-top: 30%;
+  }
+  .text3 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 67%;
+    margin-top: 55%;
+  }
+  .text4 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 13%;
+    margin-top: 62%;
+  }
+  .text5 {
+    font-family: 'Idealist-Sans';
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    left: 58%;
+    margin-top: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* iPad Portrait (XGA) */
+  .apple1 {
+    width: 7%;
+    height: 12%;
+    margin-top: 3%;
+    left: 31.5%;
+  }
+  .apple2 {
+    width: 7%;
+    height: 12%;
+    margin-top: 3%;
+    left: 60.5%;
+  }
+  .eye {
+    width: 90%;
+    height: 5%;
+    left: 20%;
+    margin-top: 0%;
+  }
+  .eye2 {
+    width: 90%;
+    height: 5%;
+    left: 56%;
+    margin-top: 0%;
+  }
     .tear_1 {
       width: 37%;
       height: 20%;
       margin-top: 25%;
       left: 43%;
-      position: absolute;
     }
     .tear_2 {
       width: 22%;
       height: 27%;
       margin-top: 24%;
       left: 29%;
-      position: absolute;
     }
     .tear_3 {
       width: 20%;
       height: 39%;
       margin-top: 54%;
       left: 18%;
-      position: absolute;
     }
     .tear_4 {
       width: 37%;
       height: 14%;
       margin-top: 50%;
       left: 43%;
-      position: absolute;
     }
     .tear_5 {
       width: 31%;
       height: 19%;
       margin-top: 68%;
       left: 42%;
-      position: absolute;
     }
     .tear_6 {
       width: 35%;
       height: 15%;
       margin-top: 21%;
       left: 18%;
-      position: absolute;
     }
     .tear_7 {
       width: 52%;
       height: 19%;
       margin-top: 20%;
       left: 44%;
-      position: absolute;
     }
     .tear_8 {
       width: 29%;
       height: 17%;
       margin-top: 35%;
       left: 5%;
-      position: absolute;
     }
     .tear_9 {
       width: 17%;
       height: 22%;
       margin-top: 53%;
       left: 7%;
-      position: absolute;
     }
     .tear_10 {
       width: 18%;
       height: 32%;
       margin-top: 40%;
       left: 33%;
-      position: absolute;
     }
     .tear_11 {
       width: 32%;
       height: 16%;
       margin-top: 38%;
       left: 68%;
-      position: absolute;
     }
     .tear_12 {
       width: 28%;
       height: 14%;
       margin-top: 61%;
       left: 58%;
-      position: absolute;
     }
     .tear_13 {
       width: 19%;
       height: 29%;
       margin-top: 57%;
       left: 75%;
-      position: absolute;
     }
     .tear_14 {
       width: 22%;
       height: 18%;
       margin-top: 77%;
       left: 38%;
-      position: absolute;
     }
     .tear_15 {
       width: 22%;
       height: 12%;
       margin-top: 86%;
       left: 61%;
-      position: absolute;
     }
     .cloud1 {
       width: 35%;
       height: 80%;
       margin-top: 43%;
       left: 7%;
-      position: absolute;
     }
     .cloud2 {
       width: 75%;
       height: 80%;
       margin-top: 53%;
       left: 35%;
-      position: absolute;
     }
     .cloud3 {
       width: 65%;
       height: 90%;
       margin-top: 51%;
       left: -10%;
-      position: absolute;
     }
     .rain {
       width: 100%;
       height: 100%;
       margin-top: 115%;
       left: 0%;
-      position: absolute;
     }
     .block {
-      background-color: white;
       width: 100%;
       height: 28%;
-      position: absolute;
       margin-top: 190%;
     }
     .text6 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: #1b4c93;
-      position: absolute;
+      font-size: 60px;
       left: 23%;
       margin-top: 202%;
     }
@@ -166,60 +588,74 @@
       height: 70%;
       margin-top: 210%;
       left: 36%;
-      position: absolute;
     }
     .text1 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: white;
-      position: absolute;
+      font-size: 60px;
       left: 54%;
       margin-top: 40%;
     }
     .text2 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: white;
-      position: absolute;
+      font-size: 60px;
       left: 15%;
       margin-top: 49%;
     }
     .text3 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: white;
-      position: absolute;
+      font-size: 60px;
       left: 66%;
       margin-top: 59%;
     }
     .text4 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: white;
-      position: absolute;
+      font-size: 60px;
       left: 5%;
       margin-top: 78%;
     }
     .text5 {
-      font-family: 'Idealist-Sans';
-      font-size: 42px;
-      color: white;
-      position: absolute;
+      font-size: 60px;
       left: 52%;
       margin-top: 85%;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
     .eye {
-      width: 22%;
-      height: 17%;
-      left: 24%;
+      width: 32%;
+      height: 57%;
+      left: 18%;
+      margin-top: -10%;
     }
     .eye2 {
-      width: 22%;
-      height: 17%;
-      left: 54%;
+      width: 32%;
+      height: 57%;
+      left: 51%;
+      margin-top: -10%;
+    }
+    .apple1 {
+      margin-top: 5.5%;
+      width: 7%;
+      height: 9%;
+      left: 31%;
+    }
+    .apple2 {
+      margin-top: 5.5%;
+      width: 7%;
+      height: 9%;
+      left: 64%;
+    }
+    @keyframes eye_move1 {
+      0% {top: 0%; left: 31.5%;}
+      20% {top: 1%; left: 32.5%;}
+      40% {top: 1%; left: 32%;}
+      60% {top: 0.5%; left: 31%;}
+      80% {top: 1%; left: 30.5%;}
+      100% {top: 0%; left: 31.5%;}
+    }
+    @keyframes eye_move2 {
+      0% {top: 0%; left: 64.5%;}
+      20% {top: 1%; left: 65.5%;}
+      40% {top: 1%; left: 65%;}
+      60% {top: 0.5%; left: 64%;}
+      80% {top: 1%; left: 63.5%;}
+      100% {top: 0%; left: 64.5%;}
     }
     .tear_1 {
       width: 38%;
@@ -367,12 +803,12 @@
       color: #1b4c93;
       position: absolute;
       left: 27%;
-      margin-top: 175%;
+      margin-top: 174%;
     }
     .logo {
       width: 25%;
       height: 70%;
-      margin-top: 182%;
+      margin-top: 181%;
       left: 38%;
       position: absolute;
     }
@@ -418,47 +854,77 @@
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { /* iPhone Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) { /* iPhone */
   .eye {
-    width: 30%;
-    height: 10%;
-    left: 15%;
+    width: 60%;
+    height: 27%;
+    left: -2%;
+    margin-top: -13%;
   }
   .eye2 {
-    width: 30%;
-    height: 10%;
-    left: 56%;
+    width: 60%;
+    height: 27%;
+    left: 43%;
+    margin-top: -13%;
+  }
+  .apple1 {
+    width: 10%;
+    height: 5%;
+    left: 23%;
+    margin-top: 7%;
+  }
+  .apple2 {
+    width: 10%;
+    height: 5%;
+    left: 68%;
+    margin-top: 7%;
+  }
+  @keyframes eye_move1 {
+    0% {top: 0%; left: 23.5%;}
+    20% {top: 1%; left: 24.5%;}
+    40% {top: 1%; left: 24%;}
+    60% {top: 0.5%; left: 23%;}
+    80% {top: 1%; left: 22.5%;}
+    100% {top: 0%; left: 23.5%;}
+  }
+  @keyframes eye_move2 {
+    0% {top: 0%; left: 68.5%;}
+    20% {top: 1%; left: 69.5%;}
+    40% {top: 1%; left: 69%;}
+    60% {top: 0.5%; left: 68%;}
+    80% {top: 1%; left: 67.5%;}
+    100% {top: 0%; left: 68.5%;}
   }
   .tear_1 {
-    width: 33%;
+    width: 26%;
     height: 23%;
-    margin-top: 26%;
-    left: 50%;
+    margin-top: 24%;
+    left: 52%;
     position: absolute;
   }
   .tear_2 {
-    width: 25%;
+    width: 27%;
     height: 26%;
-    margin-top: 29%;
-    left: 25%;
+    margin-top: 28%;
+    left: 23%;
     position: absolute;
   }
   .tear_3 {
-    width: 21%;
+    width: 25%;
     height: 43%;
     margin-top: 63%;
     left: 12%;
     position: absolute;
   }
   .tear_4 {
-    width: 33%;
-    height: 15%;
-    margin-top: 65%;
-    left: 44%;
+    width: 30%;
+    height: 13%;
+    margin-top: 67%;
+    left: 48%;
     position: absolute;
   }
   .tear_5 {
-    width: 32%;
+    width: 35%;
     height: 28%;
     margin-top: 88%;
     left: 38%;
@@ -472,14 +938,14 @@
     position: absolute;
   }
   .tear_7 {
-    width: 48%;
+    width: 34%;
     height: 20%;
     margin-top: 20%;
-    left: 55%;
+    left: 58%;
     position: absolute;
   }
   .tear_8 {
-    width: 29%;
+    width: 35%;
     height: 25%;
     margin-top: 34%;
     left: 3%;
@@ -496,7 +962,7 @@
     width: 21%;
     height: 42%;
     margin-top: 48%;
-    left: 35%;
+    left: 34%;
     position: absolute;
   }
   .tear_11 {
@@ -509,7 +975,7 @@
   .tear_12 {
     width: 24%;
     height: 22%;
-    margin-top: 76%;
+    margin-top: 80%;
     left: 64%;
     position: absolute;
   }
@@ -521,10 +987,10 @@
     position: absolute;
   }
   .tear_14 {
-    width: 23%;
+    width: 30%;
     height: 28%;
     margin-top: 102%;
-    left: 28%;
+    left: 20%;
     position: absolute;
   }
   .tear_15 {
@@ -625,7 +1091,7 @@
     margin-top: 98%;
   }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) { /* iPhone Landscape */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) { /* Android */
   .eye {
     width: 22%;
     height: 17%;

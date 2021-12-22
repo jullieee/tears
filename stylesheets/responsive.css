@@ -1,0 +1,599 @@
+@media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) { /* Full HD */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) { /* WXGA+ */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 60px;
+  }
+  .text2 {
+    margin-top: 36%;
+  }
+  .block {
+    margin-top: 175%;
+  }
+  .logo {
+    margin-top: 189%;
+  }
+  .text6 {
+    margin-top: 183%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* iPad Portrait (XGA) */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 50px;
+  }
+  .apple1 {
+    margin-left: -9%;
+    margin-top: 6.5%;
+    height: 8%;
+    width: 10%;
+  }
+  .apple2 {
+    margin-left: 6%;
+    margin-top: 6.5%;
+    height: 8%;
+    width: 10%;
+  }
+  .eye, .eye2 {
+    height: 45%;
+    margin-top: -14%;
+  }
+  .eye {
+    margin-left: -15%;
+  }
+  .eye2 {
+    margin-left: 1%;
+  }
+  .tear_1 {
+    height: 23%;
+    margin-top: 28%;
+    left: 52%;
+  }
+  .tear_2 {
+    height: 22%;
+    margin-top: 28%;
+    left: 26%;
+  }
+  .tear_3 {
+    height: 40%;
+    margin-top: 50%;
+    left: 10%;
+  }
+  .tear_4 {
+    height: 15%;
+    margin-top: 60%;
+    left: 53%;
+  }
+  .tear_5 {
+    height: 22%;
+    margin-top: 76%;
+    left: 19%;
+  }
+  .tear_6 {
+    height: 16%;
+    margin-top: 25%;
+    left: 5%;
+  }
+  .tear_7 {
+    height: 18%;
+    margin-top: 23%;
+    left: 41%;
+  }
+  .tear_8 {
+    height: 14%;
+    margin-top: 47%;
+    left: 3%;
+  }
+  .tear_9 {
+    height: 23%;
+    margin-top: 70%;
+    left: 4%;
+  }
+  .tear_10 {
+    height: 38%;
+    margin-top: 44%;
+    margin-left: 35%;
+  }
+  .tear_11 {
+    height: 20%;
+    margin-top: 42%;
+    margin-left: 64%;
+  }
+  .tear_12 {
+    height: 16%;
+    margin-top: 70%;
+    margin-left: 64%;
+  }
+  .tear_13 {
+    height: 17%;
+    margin-top: 83%;
+    margin-left: 73%;
+  }
+  .tear_14 {
+    height: 23%;
+    margin-top: 88%;
+    margin-left: 24%;
+  }
+  .tear_15 {
+    height: 14%;
+    margin-top: 97%;
+    margin-left: 30%;
+  }
+  .text1 {
+    margin-left: 58%;
+    margin-top: 41%;
+  }
+  .text2 {
+    margin-left: 10%;
+    margin-top: 41%;
+  }
+  .text3 {
+    margin-top: 65%;
+  }
+  .text4 {
+    margin-top: 92%;
+  }
+  .text5 {
+    margin-left: 53%;
+    margin-top: 88%;
+  }
+  .cloud1 {
+    margin-top: 70%;
+  }
+  .cloud2 {
+    margin-top: 75%;
+  }
+  .cloud3 {
+    margin-top: 80%;
+  }
+  .rain {
+    margin-top: 134%;
+  }
+  .text6 {
+    margin-top: 225%;
+    margin-left: 20%;
+  }
+  .logo {
+    margin-top: 234%;
+  }
+  .block {
+    margin-top: 215%;
+    height: 25%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 50px;
+  }
+  .apple1 {
+    margin-left: -8.5%;
+    margin-top: 6%;
+    height: 13%;
+    width: 10%;
+  }
+  .apple2 {
+    margin-left: 5.5%;
+    margin-top: 6%;
+    height: 13%;
+    width: 10%;
+  }
+  .eye, .eye2 {
+    height: 75%;
+    margin-top: -14%;
+  }
+  .eye {
+    margin-left: -13%;
+  }
+  .eye2 {
+    margin-left: 1%;
+  }
+  .tear_1 {
+    height: 35%;
+    margin-top: 28%;
+    left: 51%;
+  }
+  .tear_2 {
+    height: 32%;
+    margin-top: 30%;
+    left: 25%;
+  }
+  .tear_3 {
+    height: 70%;
+    margin-top: 49%;
+    left: 9%;
+  }
+  .tear_4 {
+    height: 20%;
+    margin-top: 55%;
+    left: 55%;
+  }
+  .tear_5 {
+    height: 34%;
+    margin-top: 68%;
+    left: 22%;
+  }
+  .tear_6 {
+    height: 23%;
+    margin-top: 21%;
+    left: 1%;
+  }
+  .tear_7 {
+    height: 30%;
+    margin-top: 20%;
+    left: 43%;
+  }
+  .tear_8 {
+    height: 22%;
+    margin-top: 42%;
+    left: 2%;
+  }
+  .tear_9 {
+    height: 33%;
+    margin-top: 61%;
+    left: 5.42%;
+  }
+  .tear_10 {
+    height: 58%;
+    margin-top: 40%;
+    margin-left: 34%;
+  }
+  .tear_11 {
+    height: 30%;
+    margin-top: 38%;
+    margin-left: 70%;
+  }
+  .tear_12 {
+    height: 22%;
+    margin-top: 64.83%;
+    margin-left: 67.34%;
+  }
+  .tear_13 {
+    height: 23%;
+    margin-top: 71.14%;
+    margin-left: 77.93%;
+  }
+  .tear_14 {
+    height: 33%;
+    margin-top: 78%;
+    margin-left: 27%;
+  }
+  .tear_15 {
+    height: 20%;
+    margin-top: 82%;
+    margin-left: 33%;
+  }
+  .text1 {
+    margin-left: 61%;
+    margin-top: 39%;
+  }
+  .text2 {
+    margin-left: 11%;
+    margin-top: 38%;
+  }
+  .text3 {
+    margin-left: 69%;
+    margin-top: 62%;
+  }
+  .text4 {
+    margin-left: 7%;
+    margin-top: 79%;
+  }
+  .text5 {
+    margin-left: 56%;
+    margin-top: 78%;
+  }
+  .cloud1 {
+    margin-top: 70%;
+  }
+  .cloud2 {
+    margin-top: 75%;
+  }
+  .cloud3 {
+    margin-top: 80%;
+  }
+  .rain {
+    margin-top: 110%;
+  }
+  .block {
+    margin-top: 190%;
+    height: 40%;
+  }
+  .text6 {
+    margin-left: 27%;
+    margin-top: 197%;
+  }
+  .logo {
+    margin-top: 204%;
+    margin-left: 37%;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) { /* iPhone */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 30px;
+  }
+  .apple1 {
+    margin-left: -9%;
+    margin-top: 8%;
+    height: 5%;
+    width: 11%;
+  }
+  .apple2 {
+    margin-left: 6%;
+    margin-top: 8%;
+    height: 5%;
+    width: 11%;
+  }
+  .eye, .eye2 {
+    height: 30%;
+    margin-top: -14%;
+  }
+  .eye {
+    margin-left: -16%;
+  }
+  .tear_1 {
+    height: 17%;
+    margin-top: 36%;
+    left: 52%;
+  }
+  .tear_2 {
+    height: 15%;
+    margin-top: 41%;
+    left: 26%;
+  }
+  .tear_3 {
+    height: 33%;
+    margin-top: 80%;
+    left: 10%;
+  }
+  .tear_4 {
+    height: 11%;
+    margin-top: 77%;
+    left: 53%;
+  }
+  .tear_5 {
+    height: 20%;
+    margin-top: 110%;
+    left: 29%;
+  }
+  .tear_6 {
+    height: 11%;
+    margin-top: 27%;
+    left: 5%;
+  }
+  .tear_7 {
+    height: 14%;
+    margin-top: 25%;
+    left: 52%;
+  }
+  .tear_8 {
+    height: 10%;
+    margin-top: 53%;
+    left: 3%;
+  }
+  .tear_9 {
+    height: 15%;
+    margin-top: 75%;
+    left: 4%;
+  }
+  .tear_10 {
+    height: 30%;
+    margin-top: 67%;
+    margin-left: 31%;
+  }
+  .tear_11 {
+    height: 13%;
+    margin-top: 63%;
+    margin-left: 64%;
+  }
+  .tear_12 {
+    height: 11%;
+    margin-top: 97%;
+    margin-left: 66%;
+  }
+  .tear_13 {
+    height: 11%;
+    margin-top: 114%;
+    margin-left: 74%;
+  }
+  .tear_14 {
+    height: 20%;
+    margin-top: 132%;
+    margin-left: 30%;
+  }
+  .tear_15 {
+    height: 11%;
+    margin-top: 139%;
+    margin-left: 47%;
+  }
+  .text1 {
+    margin-left: 50%;
+    margin-top: 54%;
+  }
+  .text2 {
+    margin-left: 9%;
+    margin-top: 46%;
+  }
+  .text3 {
+    margin-top: 87%;
+    margin-left: 68%;
+  }
+  .text4 {
+    margin-top: 122%;
+  }
+  .text5 {
+    margin-left: 63%;
+    margin-top: 135%;
+  }
+  .cloud1 {
+    margin-top: 80%;
+  }
+  .cloud2 {
+    margin-top: 85%;
+  }
+  .cloud3 {
+    margin-top: 90%;
+  }
+  .rain {
+    margin-top: 174%;
+  }
+  .text6 {
+    margin-top: 270%;
+    margin-left: 16%;
+  }
+  .logo {
+    margin-top: 280%;
+  }
+  .block {
+    margin-top: 258%;
+    height: 20%;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) { /* Android */
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    font-size: 30px;
+  }
+  .apple1 {
+    margin-left: -10%;
+    margin-top: 9.5%;
+    height: 6.5%;
+    width: 11%;
+  }
+  .apple2 {
+    margin-left: 8.5%;
+    margin-top: 9.5%;
+    height: 6.5%;
+    width: 11%;
+  }
+  .eye, .eye2 {
+    height: 40%;
+    margin-top: -16%;
+  }
+  .eye {
+    margin-left: -20%;
+  }
+  .eye2 {
+    margin-left: -1%;
+  }
+  .tear_1 {
+    height: 20%;
+    margin-top: 36%;
+    left: 53%;
+  }
+  .tear_2 {
+    height: 19%;
+    margin-top: 43%;
+    left: 25%;
+  }
+  .tear_3 {
+    height: 36%;
+    margin-top: 80%;
+    left: 10%;
+  }
+  .tear_4 {
+    height: 13%;
+    margin-top: 75%;
+    left: 50%;
+  }
+  .tear_5 {
+    height: 22%;
+    margin-top: 110%;
+    left: 29%;
+  }
+  .tear_6 {
+    height: 13%;
+    margin-top: 29%;
+    left: 5%;
+  }
+  .tear_7 {
+    height: 17%;
+    margin-top: 28%;
+    left: 45%; /*не трогать */
+  }
+  .tear_8 {
+    height: 12%;
+    margin-top: 56%;
+    left: 3%;
+  }
+  .tear_9 {
+    height: 18%;
+    margin-top: 80%;
+    left: 4%;
+  }
+  .tear_10 {
+    height: 34%;
+    margin-top: 72%;
+    margin-left: 33%;
+  }
+  .tear_11 {
+    height: 16%;
+    margin-top: 63%;
+    margin-left: 63%;
+  }
+  .tear_12 {
+    height: 13%;
+    margin-top: 97%;
+    margin-left: 66%;
+  }
+  .tear_13 {
+    height: 13%;
+    margin-top: 114%;
+    margin-left: 74%;
+  }
+  .tear_14 {
+    height: 22%;
+    margin-top: 132%;
+    margin-left: 24%;
+  }
+  .tear_15 {
+    height: 13%;
+    margin-top: 137%;
+    margin-left: 42%;
+  }
+  .text1 {
+    margin-left: 48%;
+    margin-top: 60%;
+  }
+  .text2 {
+    margin-left: 8%;
+    margin-top: 46%;
+  }
+  .text3 {
+    margin-top: 87%;
+    margin-left: 58%;
+  }
+  .text4 {
+    margin-top: 122%;
+  }
+  .text5 {
+    margin-left: 53%;
+    margin-top: 135%;
+  }
+  .cloud1 {
+    margin-top: 90%;
+  }
+  .cloud2 {
+    margin-top: 95%;
+  }
+  .cloud3 {
+    margin-top: 100%;
+  }
+  .rain {
+    margin-top: 171%;
+  }
+  .text6 {
+    margin-top: 266%;
+    margin-left: 11%;
+  }
+  .logo {
+    width: 27%;
+    margin-top: 277%;
+  }
+  .block {
+    margin-top: 255%;
+    height: 23%;
+  }
+}

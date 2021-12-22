@@ -1,10 +1,72 @@
-.tear_1:hover, .tear_2:hover, .tear_3:hover, .tear_4:hover, .tear_5:hover {
-  animation: teardrop 3s ease-in;
+.apple1 {
+  animation: eye_move1 8s ease-in-out infinite;
+}
+.apple2 {
+  animation: eye_move2 8s ease-in-out infinite;
+}
+@keyframes eye_move1 {
+  0% {top: 0%; margin-left: 1%;}
+  20% {top: 1%; margin-left: 2.5%;}
+  40% {top: 1%; margin-left: 2%;}
+  60% {top: 0.5%; margin-left: 0%;}
+  80% {top: 1%; margin-left: -2%;}
+  100% {top: 0%; margin-left: 1%;}
+}
+@keyframes eye_move2 {
+  0% {top: 0%; margin-left: 1%;}
+  20% {top: 1%; margin-left: 2.5%;}
+  40% {top: 1%; margin-left: 2%;}
+  60% {top: 0.5%; margin-left: 0%;}
+  80% {top: 1%; margin-left: -2%;}
+  100% {top: 0%; margin-left: 1%;}
+}
+
+
+
+.tear_1 {
+  animation: teardrop1 60s ease-in;
   animation-iteration-count: 1;
 }
-@keyframes teardrop {
-  0% {top: 0%; transform: rotate(0deg);}
+.tear_2 {
+  animation: teardrop2 50s ease-in;
+  animation-iteration-count: 1;
+}
+.tear_3 {
+  animation: teardrop3 70s ease-in;
+  animation-iteration-count: 1;
+}
+.tear_4 {
+  animation: teardrop4 65s ease-in;
+  animation-iteration-count: 1;
+}
+.tear_5 {
+  animation: teardrop5 55s ease-in;
+  animation-iteration-count: 1;
+}
+@keyframes teardrop1 {
+  4% {top: 0%; transform: rotate(0deg);}
+  14% {top: 140%; transform: rotate(260eg);}
+  100% {top: 140%; transform: rotate(260eg);}
+}
+@keyframes teardrop2 {
+  7% {top: 0%; transform: rotate(0deg);}
+  20% {top: 130%; transform: rotate(260eg);}
+  100% {top: 130%; transform: rotate(260eg);}
+}
+@keyframes teardrop3 {
+  8% {top: 0%; transform: rotate(0deg);}
+  19% {top: 130%; transform: rotate(260eg);}
   100% {top: 120%; transform: rotate(260eg);}
+}
+@keyframes teardrop4 {
+  9% {top: 0%; transform: rotate(0deg);}
+  17% {top: 130%; transform: rotate(260eg);}
+  100% {top: 130%; transform: rotate(260eg);}
+}
+@keyframes teardrop5 {
+  12% {top: 0%; transform: rotate(0deg);}
+  25% {top: 130%; transform: rotate(260eg);}
+  100% {top: 130%; transform: rotate(260eg);}
 }
 .cloud1 {
   animation: move1 7s infinite ease-in;
@@ -28,15 +90,15 @@
     75% {transform: scale(0.95, 1);}
 }
 @keyframes move3 {
-    0% { transform: scale(1, 1);}
+    0% {transform: scale(1, 1);}
     25% {transform: scale(0.95, 1.1);}
     50% {transform: scale(1.1, 0.95);}
     75% {transform: scale(0.95, 1.05);}
 }
-.rain:hover {
+/* .rain:hover {
   animation: rain 3s;
   animation-iteration-count: 1;
-}
+} */
 @keyframes rain {
 0% {transform: scale(1, 0.4);}
 100% {transform: scale(1, 1);}
