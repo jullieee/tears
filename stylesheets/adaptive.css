@@ -1,4 +1,4 @@
-@media all and (min-width: 1080px) and (max-width: 1920px) { /* Full HD */
+@media (max-width: 1920px) { /* Full HD */
   .eyes-and-tears {
     flex-basis: 2100px;
   }
@@ -13,9 +13,10 @@
   }
 }
 
-@media all and (min-width: 900px) and (max-width: 1440px) { /* WXGA+ */
+@media (max-width: 1440px) { /* WXGA+ */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 70px;
+    top: -6%;
   }
   .eyes-and-tears {
     flex-basis: 1500px;
@@ -32,9 +33,10 @@
   }
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1366px) { /* WXGA */
+@media (max-device-width: 1366px) { /* WXGA */
   .text1, .text2, .text3, .text4, .text5, .text6 {
-    font-size: 60px;
+    font-size: 65px;
+    top: -5%;
   }
   .eyes-and-tears {
     flex-basis: 1450px;
@@ -52,34 +54,36 @@
   }
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* iPad Portrait (XGA) */
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) { /* iPad Portrait (XGA) */
   .text1, .text2, .text3, .text4, .text5, .text6 {
-    font-size: 60px;
+    font-size: 37px;
+    top: -5%;
   }
   .eyes-and-tears {
-    flex-basis: 600px;
+    flex-basis: 800px;
   }
   .clouds {
     flex-basis: 1100px;
   }
   .block {
-    flex-basis: 270px;
+    flex-basis: 240px;
   }
   .cloud3 {
     top: 5%;
   }
   .text6 {
-    top: 17%;
-    left: 20%;
+    top: 25%;
+    left: 28%;
   }
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
+@media (max-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
   .text1, .text2, .text3, .text4, .text5, .text6 {
-    font-size: 60px;
+    font-size: 50px;
+    top: -6%;
   }
   .eyes-and-tears {
-    flex-basis: 1050px;
+    flex-basis: 1100px;
   }
   .clouds {
     flex-basis: 1300px;
@@ -97,15 +101,16 @@
   }
 }
 
-@media all and (min-width: 414px) and (max-width: 896px) { /* iPhone */
+@media all and (min-device-width: 360px) and (max-device-width: 414px) { /* iPhone */
   .text1, .text2, .text3, .text4, .text5, .text6 {
-    font-size: 28px;
+    font-size: 18px;
+    top: -1%;
   }
   .eyes-and-tears {
-    flex-basis: 600px;
+    flex-basis: 380px;
   }
   .clouds {
-    flex-basis: 400px;
+    flex-basis: 700px;
   }
   .block {
     flex-basis: 120px;
@@ -114,30 +119,31 @@
     top: 5%;
   }
   .text6 {
-    top: 15%;
-    left: 19%;
+    top: 27%;
+    left: 29%;
   }
 }
 
 
-@media all and (min-width: 360px) and (max-width: 640px) { /* Android */
+@media all and (min-device-width: 360px) and (max-device-width: 360px) { /* Android */
   .text1, .text2, .text3, .text4, .text5, .text6 {
-    font-size: 28px;
+    font-size: 17px;
+    top: -5%;
   }
   .eyes-and-tears {
     flex-basis: 360px;
   }
   .clouds {
-    flex-basis: 500px;
+    flex-basis: 600px;
   }
   .block {
-    flex-basis: 120px;
+    flex-basis: 100px;
   }
   .cloud3 {
     top: 5%;
   }
   .text6 {
-    top: 15%;
-    left: 14%;
+    top: 20%;
+    left: 27%;
   }
 }

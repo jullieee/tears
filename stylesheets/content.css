@@ -194,7 +194,6 @@ body {
   width: 100%;
   transform: translateY(20%);
   left: 30%;
-  position: absolute;
 }
 .logo {
   width: 25%;
@@ -206,7 +205,6 @@ body {
   color: white;
   left: 70%;
   transform: translateY(1025%);
-  position: absolute;
 }
 .text2 {
   color: white;
