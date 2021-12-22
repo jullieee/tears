@@ -2,23 +2,15 @@
   animation: eye_move1 8s ease-in-out infinite;
 }
 .apple2 {
-  animation: eye_move2 8s ease-in-out infinite;
+  animation: eye_move1 8s ease-in-out infinite;
 }
 @keyframes eye_move1 {
-  0% {top: 0%; margin-left: 1%;}
-  20% {top: 1%; margin-left: 2.5%;}
-  40% {top: 1%; margin-left: 2%;}
-  60% {top: 0.5%; margin-left: 0%;}
-  80% {top: 1%; margin-left: -2%;}
-  100% {top: 0%; margin-left: 1%;}
-}
-@keyframes eye_move2 {
-  0% {top: 0%; margin-left: 1%;}
-  20% {top: 1%; margin-left: 2.5%;}
-  40% {top: 1%; margin-left: 2%;}
-  60% {top: 0.5%; margin-left: 0%;}
-  80% {top: 1%; margin-left: -2%;}
-  100% {top: 0%; margin-left: 1%;}
+  0% {transform: translate(-50%, 0);}
+  20% {transform: translate(-70%, 10%);}
+  40% {transform: translate(-60%, 10%);}
+  60% {transform: translate(-50%, 5%);}
+  80% {transform: translate(-30%, 10%);}
+  100% {transform: translate(-50%, 0);}
 }
 
 
@@ -44,29 +36,29 @@
   animation-iteration-count: 1;
 }
 @keyframes teardrop1 {
-  4% {top: 0%; transform: rotate(0deg);}
-  14% {top: 140%; transform: rotate(260eg);}
-  100% {top: 140%; transform: rotate(260eg);}
+  4% {}
+  14% {transform: translate(0, 500%);}
+  100% {transform: translate(0, 500%);}
 }
 @keyframes teardrop2 {
-  7% {top: 0%; transform: rotate(0deg);}
-  20% {top: 130%; transform: rotate(260eg);}
-  100% {top: 130%; transform: rotate(260eg);}
+  7% {}
+  20% {transform: translate(0, 500%);}
+  100% {transform: translate(0, 500%);}
 }
 @keyframes teardrop3 {
-  8% {top: 0%; transform: rotate(0deg);}
-  19% {top: 130%; transform: rotate(260eg);}
-  100% {top: 120%; transform: rotate(260eg);}
+  8% {}
+  19% {transform: translate(0, 500%);}
+  100% {transform: translate(0, 500%);}
 }
 @keyframes teardrop4 {
-  9% {top: 0%; transform: rotate(0deg);}
-  17% {top: 130%; transform: rotate(260eg);}
-  100% {top: 130%; transform: rotate(260eg);}
+  8% {}
+  12% {transform: translate(0, 800%);}
+  100% {transform: translate(0, 800%);}
 }
 @keyframes teardrop5 {
-  12% {top: 0%; transform: rotate(0deg);}
-  25% {top: 130%; transform: rotate(260eg);}
-  100% {top: 130%; transform: rotate(260eg);}
+  12% {}
+  25% {transform: translate(0, 600%);}
+  100% {transform: translate(0, 600%);}
 }
 .cloud1 {
   animation: move1 7s infinite ease-in;

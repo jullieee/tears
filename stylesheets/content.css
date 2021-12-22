@@ -1,168 +1,188 @@
-body {
-  width: 100%;
-  background: #272f6a;
+html {
   height: 100%;
+}
+body {
+  height: 100%;
+  background: #272f6a;
   display: block;
-  position: absolute;
+}
+.page-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.eyes-and-tears {
+  position: relative;
+  flex-basis: 1100px;
+  flex-grow: 1;
+}
+.clouds {
+  position: relative;
+  flex-basis: 1100px;
+  flex-grow: 1;
 }
 .apple1 {
-  background: red;
   position: absolute;
-  width: 7%;
-  height: 12%;
-  border-radius: 100%;
-  margin-top: 5%;
-  left: 31.5%;
+  width: 27%;
+  left: 50%;
+  top: 33%;
+  transform: translate(-50%, 0);
 }
 .apple2 {
-  background: red;
   position: absolute;
-  width: 7%;
-  height: 12%;
-  border-radius: 100%;
-  margin-top: 5%;
-  left: 60.5%;
+  width: 27%;
+  left: 50%;
+  top: 33%;
+  transform: translate(-50%, 0);
 }
 .eye {
-  height: 70%;
-  margin-top: -9%;
-  left: 21%;
+  width: 50%;
+  left: 2%;
   position: absolute;
+  transform: translateY(-25%);
+}
+.eye img {
+  width: 100%;
 }
 .eye2 {
-  height: 70%;
-  margin-top: -9%;
-  left: 50%;
+  width: 50%;
+  top: 0;
+  right: 2%;
   position: absolute;
+  transform: translateY(-25%);
+}
+.eye2 img {
+  width: 100%;
 }
 .tear_1 {
-  height: 43%;
-  margin-top: 20%;
-  left: 52%;
-  position: absolute;
-}
-.tear_2 {
-  height: 42%;
-  margin-top: 20%;
-  left: 23%;
-  position: absolute;
-}
-.tear_3 {
-  width: 30%;
-  height: 80%;
-  margin-top: 39%;
-  left: 9%;
-  position: absolute;
-}
-.tear_4 {
-  height: 30%;
-  margin-top: 45%;
+  width: 21%;
+  transform: translateY(85%);
   left: 55%;
   position: absolute;
 }
+.tear_2 {
+  width: 23%;
+  transform: translateY(120%);
+  left: 20%;
+  position: absolute;
+}
+.tear_3 {
+  width: 23%;
+  transform: translateY(100%);
+  left: 13%;
+  position: absolute;
+}
+.tear_4 {
+  width: 25%;
+  transform: translateY(300%);
+  left: 60%;
+  position: absolute;
+}
 .tear_5 {
-  width: 60%;
-  height: 48%;
-  margin-top: 54%;
-  left: 19%;
+  width: 30%;
+  transform: translateY(280%);
+  left: 45%;
   position: absolute;
 }
 .tear_6 {
-  width: 55%;
-  height: 28%;
-  margin-top: 17%;
-  left: 11%;
+  width: 30%;
+  transform: translateY(130%);
+  left: 15%;
   position: absolute;
 }
 .tear_7 {
-  width: 55%;
-  height: 48%;
-  margin-top: 14%;
-  left: 41%;
+  width: 25%;
+  transform: translateY(100%);
+  left: 65%;
   position: absolute;
 }
 .tear_8 {
-  height: 27%;
-  margin-top: 27%;
+  width: 27%;
+  transform: translateY(345%);
   left: 2%;
   position: absolute;
 }
 .tear_9 {
-  height: 43%;
-  margin-top: 45%;
-  left: 5.42%;
+  width: 20%;
+  transform: translateY(265%);
+  left: 4%;
   position: absolute;
 }
 .tear_10 {
-  height: 78%;
-  margin-top: 34%;
-  margin-left: 34%;
+  width: 23%;
+  transform: translateY(78%);
+  left: 35%;
   position: absolute;
 }
 .tear_11 {
-  height: 35%;
-  margin-top: 35%;
-  margin-left: 73%;
+  width: 25%;
+  transform: translateY(235%);
+  left: 72%;
   position: absolute;
 }
 .tear_12 {
-  height: 32%;
-  margin-top: 54.83%;
-  margin-left: 67.34%;
+  width: 18%;
+  transform: translateY(440%);
+  left: 72%;
   position: absolute;
 }
 .tear_13 {
-  height: 33%;
-  margin-top: 61.14%;
-  margin-left: 77.93%;
+  width: 18%;
+  transform: translateY(450%);
+  left: 80%;
   position: absolute;
 }
 .tear_14 {
-  height: 43%;
-  margin-top: 66%;
-  margin-left: 27%;
+  width: 23%;
+  transform: translateY(380%);
+  left: 25%;
   position: absolute;
 }
 .tear_15 {
-  width: 55%;
-  height: 28%;
-  margin-top: 72%;
-  margin-left: 30%;
+  width: 25%;
+  transform: translateY(580%);
+  left: 55%;
   position: absolute;
 }
 .cloud1 {
-  width: 45%;
-  height: 80%;
-  margin-top: 65%;
-  margin-left: 5%;
+  width: 50%;
+  height: 50%;
+  left: 5%;
   position: absolute;
 }
 .cloud2 {
   width: 75%;
-  height: 80%;
-  margin-top: 70%;
-  margin-left: 25%;
+  height: 55%;
+  left: 40%;
   position: absolute;
 }
 .cloud3 {
   width: 75%;
-  height: 90%;
-  margin-top: 75%;
-  margin-left: -10%;
+  height: 55%;
+  left: -10%;
+  top: 10%;
   position: absolute;
 }
 .rain {
   width: 100%;
   height: 100%;
-  margin-top: 97%;
   position: absolute;
+  top: 30%;
+  background: url(../images/rain.svg) center center repeat;
+}
+.rain img {
+  width: 100%;
+  height: 100%;
 }
 .block {
   background-color: white;
   width: 100%;
-  height: 50%;
-  position: absolute;
-  margin-top: 160%;
+  flex-basis: 280px;
+  position: relative;
 }
 .text1, .text2, .text3, .text4, .text5, .text6 {
   font-family: 'Idealist-Sans';
@@ -171,37 +191,40 @@ body {
 }
 .text6 {
   color: #1b4c93;
-  margin-left: 30%;
-  margin-top: 167%;
+  width: 100%;
+  transform: translateY(20%);
+  left: 30%;
+  position: absolute;
 }
 .logo {
   width: 25%;
-  margin-top: 173%;
-  margin-left: 37%;
+  top: 50%;
+  left: 37%;
   position: absolute;
 }
 .text1 {
   color: white;
-  margin-left: 57%;
-  margin-top: 35%;
+  left: 70%;
+  transform: translateY(1025%);
+  position: absolute;
 }
 .text2 {
   color: white;
-  margin-left: 12%;
-  margin-top: 33%;
+  left: 12%;
+  transform: translateY(1150%)
 }
 .text3 {
   color: white;
-  margin-left: 72%;
-  margin-top: 52%;
+  left: 80%;
+  transform: translateY(1600%)
 }
 .text4 {
   color: white;
-  margin-left: 7%;
-  margin-top: 64%;
+  left: 5%;
+  transform: translateY(2300%)
 }
 .text5 {
   color: white;
-  margin-left: 56%;
-  margin-top: 67%;
+  left: 65%;
+  transform: translateY(2300%)
 }

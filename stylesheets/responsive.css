@@ -1,7 +1,7 @@
-@media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) { /* Full HD */
+@media all and (min-width: 1080px) and (max-width: 1920px) { /* Full HD */
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) { /* WXGA+ */
+@media all and (min-width: 768px) and (max-width: 1366px) { /* WXGA+ */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 60px;
   }
@@ -19,7 +19,7 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* iPad Portrait (XGA) */
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { /* iPad Portrait (XGA) */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 50px;
   }
@@ -163,7 +163,7 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /* iPad Landscape (XGA) */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 50px;
   }
@@ -310,7 +310,7 @@
   }
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) { /* iPhone */
+@media all and (min-width: 414px) and (max-width: 896px) { /* iPhone */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 30px;
   }
@@ -452,7 +452,7 @@
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) { /* Android */
+@media all and (min-width: 360px) and (max-width: 640px) { /* Android */
   .text1, .text2, .text3, .text4, .text5, .text6 {
     font-size: 30px;
   }
